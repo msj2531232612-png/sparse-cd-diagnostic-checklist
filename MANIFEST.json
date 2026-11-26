@@ -1,0 +1,86 @@
+{
+ "root": ".",
+ "n_files": 20,
+ "files": {
+  ".gitignore": {
+   "sha256": "c349c8a1268ed1ce79811c0f86f86ac5c60a0b7550148fe1562e7d2c4ec77928",
+   "bytes": 52
+  },
+  "LICENSE": {
+   "sha256": "384c4338a244719ea110065ef7ba3243aab49e16ae3ac403db6255791aeef5c9",
+   "bytes": 1068
+  },
+  "README.md": {
+   "sha256": "2216eddbed8498c01c4b52443404b25c6058bd19762216b62066db2b0682ee5f",
+   "bytes": 3276
+  },
+  "make_manifest.py": {
+   "sha256": "9984fd51190460442f5686ffb317d2363e60b983317ec3e7f6a0b29a601e6b86",
+   "bytes": 1385
+  },
+  "requirements.txt": {
+   "sha256": "6bd31e587c06276bf231cec25395b5d4a0b1e38c4d2b00813b2dd96aad14f17a",
+   "bytes": 24
+  },
+  "run_audit.py": {
+   "sha256": "95342962f0278958b5f259f49f446c8e3b95be57b34f48741456a8893761e8ec",
+   "bytes": 13426
+  },
+  "audit_toolkit/__init__.py": {
+   "sha256": "78654988836bee1b4bad2ef3abffc5defed787eee2ee158ec31cf74a09e9ce0e",
+   "bytes": 827
+  },
+  "audit_toolkit/core_laplace.py": {
+   "sha256": "71ea3e9a5d7ee07eaec112b4c1ab3fafa045acf5b5c1fba5322b8fe6728d110d",
+   "bytes": 3795
+  },
+  "audit_toolkit/dynamic_gate.py": {
+   "sha256": "35e00ee7d7575f05635a219fcb785d9eaf63fb6b2a7b19021a25925a2d1ec7fb",
+   "bytes": 7726
+  },
+  "audit_toolkit/mechanism.py": {
+   "sha256": "ed24e004e654efdb1001ad577d4f05c59b567087838c36eb0265576af565edf0",
+   "bytes": 4728
+  },
+  "audit_toolkit/positive_control.py": {
+   "sha256": "d69e8a031da1cc2272e3c3559f8f10d6aae965a5a56b1f8abfac49582f225c26",
+   "bytes": 1616
+  },
+  "audit_toolkit/static_gate.py": {
+   "sha256": "58046c09401c575ae07865b1329a5fc1bf9c9bbb288f97beb5cec6b33b2450b7",
+   "bytes": 8113
+  },
+  "examples/demo_synthetic.py": {
+   "sha256": "41be082e43c7137ac19dd55d007644f36e46e3980e9908ed66a8248deddfed76",
+   "bytes": 320
+  },
+  "manuscript_scripts/b4_2pl_bootstrap_ci.py": {
+   "sha256": "d6f1d16cd7712e142850e8f3924ff7a2e1813dc688b21697023f81b6ccac365d",
+   "bytes": 5155
+  },
+  "manuscript_scripts/d1_1000_perm_check.py": {
+   "sha256": "90c2aca55645c2ea8318dd396875016e9f7dbdc2fdb184aca20626d4240b9e1f",
+   "bytes": 3607
+  },
+  "manuscript_scripts/d6_crossfit_1000.py": {
+   "sha256": "7ce7d3fef65008fefe183746da6f61fa5be4629dbe668a98fa6a03526c704c97",
+   "bytes": 6548
+  },
+  "manuscript_scripts/data_splits.py": {
+   "sha256": "87fd40ab1937825bffe3f3d7355ddc3ab45ff8b4a2942758e8f2316a2f6631ca",
+   "bytes": 4413
+  },
+  "manuscript_scripts/mechanism_common.py": {
+   "sha256": "3b3015788c314a05dc89796050ac7b3d1a2592eb7eebd07bec8b97dd6de29d63",
+   "bytes": 4226
+  },
+  "manuscript_scripts/mixture_rasch_a1.py": {
+   "sha256": "6245aac8502981e41175ad424c60e65b3c9549ce500161aedbd02104d457f9c3",
+   "bytes": 10304
+  },
+  "manuscript_scripts/mode_subspace_vr_a3.py": {
+   "sha256": "8f6d58f68702b6759d1c9e3d38d5f09f1bfdd0fc31436951668c38879eb2c266",
+   "bytes": 12825
+  }
+ }
+}

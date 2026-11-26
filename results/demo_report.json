@@ -1,0 +1,61 @@
+{
+ "static_positive": {
+  "verdict": "RELEASE",
+  "n_seeds": 4,
+  "gain_median": 2.2938882210826446,
+  "gain_q25": 2.1563358288635444,
+  "gain_q75": 2.354257503253497,
+  "bic_picks_R2": "4/4",
+  "route_auc_median": 0.9133147294619002,
+  "g0_1": true,
+  "g0_2": true
+ },
+ "static_null": {
+  "verdict": "REJECT",
+  "n_seeds": 4,
+  "gain_median": 0.19899900417637356,
+  "gain_q25": 0.11473524494216622,
+  "gain_q75": 0.3274934717782881,
+  "bic_picks_R2": "0/4",
+  "route_auc_median": 0.5314104767060408,
+  "g0_1": false,
+  "g0_2": false
+ },
+ "mechanism_D1": {
+  "real_top1": 11.748248236312817,
+  "null95_top1": 9.139933229159789,
+  "anchor_top1": 9.795770953410415,
+  "ratio_null": 1.285,
+  "ratio_anchor": 1.199
+ },
+ "dynamic": {
+  "n_seeds": 2,
+  "ARI": [
+   0.31690021208473174,
+   0.3135236334135426,
+   0.3202767907559209
+  ],
+  "AUC": [
+   0.8490695733294054,
+   0.8420975106790396,
+   0.8560416359797712
+  ],
+  "pearson": [
+   0.6143637813985192,
+   0.5986253377741274,
+   0.6301022250229111
+  ],
+  "D5_gain": 0.17615463239378862,
+  "MixTrue_gain": -0.1329971702514208,
+  "D0_gain": -3.9636555564826716,
+  "D4_gain": 0.09382040018713807,
+  "design_gate": false,
+  "identifiability": false
+ },
+ "elapsed_s": 16.1,
+ "verdicts": {
+  "static_positive_RELEASE": true,
+  "static_null_REJECT": true,
+  "dynamic_design_gate": false
+ }
+}
